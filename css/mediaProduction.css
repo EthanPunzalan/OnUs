@@ -290,7 +290,7 @@ button:hover{
     color: rgba(189, 188, 188, 0.7);
 }
 
-.smapleWorks{
+.sampleWorks{
     /* background-color: #f3870c; */
     width: 55%;
     height: 60%;
@@ -300,18 +300,18 @@ button:hover{
     font-family: Sansation_Bold;
     top: 450%;
 }
-.smapleWorks > h1{
-    margin-left: 5%;
-    font-size: 2.5em;
+.sampleWorks > h1{
+    margin-left: 0%;
+    font-size: 3em;
     color: white;
 }
 
-.smapleWorks > .row1{
+.sampleWorks > .row1{
     /* background-color: #3e2a2a; */
-    width: 90%;
+    width: 104%;
     height: 40%;
+    border-radius: 40px;
     margin-bottom: 10%;
-    border-radius: 20px;
     position: absolute;
     left: 50%;
     top: 20%;
@@ -319,11 +319,11 @@ button:hover{
     box-shadow: inset 13px 13px 30px 4px rgba(0, 0, 0, 0.25);
 }
 
-.smapleWorks > .row2{
+.sampleWorks > .row2{
     /* background-color: #e5e5e5; */
-    width: 90%;
+    width: 104%;
     height: 40%;
-    border-radius: 20px;
+    border-radius: 40px;
     position: absolute;
     left: 50%;
     top: 70%;
