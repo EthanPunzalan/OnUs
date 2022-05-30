@@ -58,6 +58,11 @@ section{
     color: #F3890C;
 }
 
+.blur {
+    position: absolute;
+    left: 60%;
+    top: 5%;
+}
 .titlePage {
     position: absolute;
     top: 35%;
@@ -130,6 +135,12 @@ section{
     top: 88%;
 }
 
+.blur4 {
+    position: absolute;
+    top: 100%;
+    left: 90%;
+}
+
 .orangePillar {
     position: absolute;
     top: 155%;
@@ -171,6 +182,12 @@ section{
     color: rgba(218, 211, 211, 0.7);
     left: 20%;
     top: 163%;
+}
+
+.blur5 {
+    position: absolute;
+    top: 185%;
+    left: 65%;
 }
 
 .greenPillar {
@@ -265,6 +282,13 @@ button:hover{
     height: 6.5%;
 }
 
+.blur6 {
+    position: absolute;
+    top: 301%;
+    left: 10%;
+    z-index: -1;
+}
+
 .facilities{
     position: absolute;
     width: 55%;
@@ -306,12 +330,13 @@ button:hover{
     color: white;
 }
 
+
+
 .sampleWorks > .row1{
     /* background-color: #3e2a2a; */
     width: 104%;
-    height: 40%;
+    height: 50%;
     border-radius: 40px;
-    margin-bottom: 10%;
     position: absolute;
     left: 50%;
     top: 20%;
@@ -319,14 +344,59 @@ button:hover{
     box-shadow: inset 13px 13px 30px 4px rgba(0, 0, 0, 0.25);
 }
 
+.row1 > img{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.row2 > img{
+    position: absolute;
+    top: 5%;
+    left: 6%;
+}
+
 .sampleWorks > .row2{
     /* background-color: #e5e5e5; */
     width: 104%;
-    height: 40%;
+    height: 50%;
     border-radius: 40px;
     position: absolute;
     left: 50%;
-    top: 70%;
+    top: 80%;
     transform: translate(-50%);
     box-shadow: inset 13px 13px 30px 4px rgba(0, 0, 0, 0.25);
 }
+
+
+.footer{
+    position: absolute;
+    box-shadow: inset 13px 13px 30px 4px rgba(0, 0, 0, 0.25);
+    height: 40%;
+    width: 100%;
+    top: 550%;
+}
+
+.footer > .footerLogo {
+    margin-left: 5%;
+    margin-top: 2.5%;
+}
+.footer > .footerContent {
+    color: #DAD3D3;
+    margin-left: 5%;
+}
+
+.categories {
+    color: #FFFFFF;
+    position: absolute;
+    top: 23.5%;
+    left: 35%;
+}
+
+.names {
+    color: #9F9F9F;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
