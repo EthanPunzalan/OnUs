@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/categoryPage.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navBar">
+        <img src="/imgs/logo.png" alt="">
+        <a href="/html/landingPage.html">Home</a>
+        <a class="active" href="#">Category</a>
+        <a href="/html/pricingPage.html">Pricing</a>
+        <a href="/html/contactUsPage.html">Contact Us</a>
+        <a href="/html/loginPage.html" class="loginBtn">Sign in</a>
+    </div>
+
+    <section>
+        
+        <div class="slider-container">
+            <div class="inner-slider">
+                <div class="card card1">
+                    <h1>01</h1>
+                    <h1 class="cardTitle">Media<br> Production</h1>
+                    <p>Photography<br>
+                        Videography<br>
+                        Graphic Design<br></p>
+                        <img class="mpImg" src="/imgs/MediaProdimg.png" alt="">
+                </div>
+                <div class="card card2">
+                    <h1>02</h1>
+                    <h1>Digital<br> Marketing</h1>
+                    <p>Email Marketing<br>
+                        Google Adwords<br>
+                        Youtube Ads<br>
+                        Google Display</p>
+                        <img class="dmImg" src="/imgs/digitalMarkImg.png" alt="">
+                </div>
+                <div class="card card3">
+                    <h1>03</h1>
+                    <h1>Website &<br> Mobile Apps</h1>
+                    <p>Website Development<br>
+                        Mobile App Development<br>
+                        E-Commerce Development</p>
+                        <img class="wmImg" src="/imgs/webImg.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <script>
+        //let sliderContainer = document.querySelector('.slider-container');
+        let innerSlider = document.querySelector('.inner-slider');
+        let card1 = document.querySelector('.card1');
+        let card2 = document.querySelector('.card2');
+        let card3 = document.querySelector('.card3');
+    
+        let pressed = false;
+        let startX;
+        let x;
+
+        card1.addEventListener("click", () =>{
+            location.href = 'mediaProductionPage.html';
+        });
+        card2.addEventListener("click", () =>{
+            location.href = 'digitalMarketingPage.html';
+        });
+        card3.addEventListener("click", () =>{
+            location.href = 'websiteAppsPage.html';
+        });
+    
+    </script>
+</body>
+</html>
