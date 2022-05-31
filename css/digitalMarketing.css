@@ -323,6 +323,8 @@ button:hover{
     transform: translate(-50%);
     font-family: Sansation_Bold;
     top: 450%;
+    margin-bottom: -100%;
+
 }
 .platforms > h1{
     margin-left: 0%;
@@ -374,7 +376,7 @@ button:hover{
     box-shadow: inset 13px 13px 30px 4px rgba(0, 0, 0, 0.25);
     height: 40%;
     width: 100%;
-    top: 550%;
+    top: 560%;
 }
 
 .footer > .footerLogo {
