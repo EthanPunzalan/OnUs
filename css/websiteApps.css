@@ -128,11 +128,11 @@ section{
     position: absolute;
     text-align: justify;
     font-weight: 400;
-    font-size: .95em;
+    font-size: 1em;
     letter-spacing: 0.065em;
     color: rgba(218, 211, 211, 0.7);
     left: 38%;
-    top: 86%;
+    top: 83%;
 }
 
 .blur4 {
@@ -177,7 +177,7 @@ section{
     position: absolute;
     text-align: right;
     font-weight: 400;
-    font-size: 1.025em;
+    font-size: 1.05em;
     letter-spacing: 0.065em;
     color: rgba(218, 211, 211, 0.7);
     left: 21.75%;
