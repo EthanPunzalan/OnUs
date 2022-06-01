@@ -1,11 +1,11 @@
 @font-face {
     font-family: Sansation_Bold;
-    src: url(/font/sansation/Sansation_Bold.ttf);
+    src: url(/OnUs/font/sansation/Sansation_Bold.ttf);
 }
 
 @font-face {
     font-family: Sansation_Reg;
-    src: url(/font/sansation/Sansation_Regular.ttf);
+    src: url(/OnUs/font/sansation/Sansation_Regular.ttf);
 }
 
 body{
@@ -72,11 +72,13 @@ body{
     padding: 8px;
     background-color:#2B3048 ;
     font-family: Sansation_Reg;
+    color: white;
 }
 
 .signupForm .inputB{
     width: 50%;
     font-size: 30px;
+    color: white;
 }
 
 #signupBtn{
@@ -119,4 +121,11 @@ body{
     position: absolute;
     top: 35%;
     left: 10%;
+}
+
+.errorMsg{
+    font-family:Sansation_Bold ;
+    color: #F3890C;
+    margin-left: 2%;
+    font-size: 1.5rem;
 }

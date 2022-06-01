@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/OnUs/css/categoryPage.css">
-    <title>Document</title>
+    <title>OnUs|Category</title>
 </head>
 
 <body>
     <div class="navBar">
         <img src="/OnUs/imgs/logo.png" alt="">
-        <a href="landingPage.html">Home</a>
+        <a href="homePage.php">Home</a>
         <a class="active" href="#">Category</a>
-        <a href="pricingPage.html">Pricing</a>
-        <a href="contactUsPage.html">Contact Us</a>
-        <a href="loginPage.html" class="loginBtn">Sign in</a>
+        <a href="pricingPage.php">Pricing</a>
+        <a href="contactUsPage.php">Contact Us</a>
+        <a href="includes/logout.inc.php" class="logoutLink">Logout</a>
     </div>
 
     <section>
@@ -53,24 +53,19 @@
 
     </section>
     <script>
-        //let sliderContainer = document.querySelector('.slider-container');
-        let innerSlider = document.querySelector('.inner-slider');
         let card1 = document.querySelector('.card1');
         let card2 = document.querySelector('.card2');
         let card3 = document.querySelector('.card3');
     
-        let pressed = false;
-        let startX;
-        let x;
 
         card1.addEventListener("click", () =>{
-            location.href = 'mediaProductionPage.html';
+            location.href = 'mediaProductionPage.php';
         });
         card2.addEventListener("click", () =>{
-            location.href = 'digitalMarketingPage.html';
+            location.href = 'digitalMarketingPage.php';
         });
         card3.addEventListener("click", () =>{
-            location.href = 'websiteAppsPage.html';
+            location.href = 'websiteAppsPage.php';
         });
     
     </script>
