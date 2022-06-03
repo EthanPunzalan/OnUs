@@ -1,17 +1,4 @@
-@font-face {
-    font-family: Sansation_Bold;
-    src: url(/OnUs/font/sansation/Sansation_Bold.ttf);
-}
-
-@font-face {
-    font-family: Sansation_Reg;
-    src: url(/OnUs/font/sansation/Sansation_Regular.ttf);
-}
-
-@font-face {
-    font-family: Revalia;
-    src: url(/OnUs/font/Revalia-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Revalia&family=Roboto&display=swap');
 
 /* width */
 ::-webkit-scrollbar {
@@ -62,7 +49,7 @@ section{
 }
 
 .navBar a{
-    font-family: Sansation_Bold;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: white;
     margin-right: 50px;
@@ -95,12 +82,12 @@ section{
 }
 
 .sectionOneContainer> h1{
-    font-family: Sansation_Bold;
+    font-family: 'Montserrat', sans-serif;
     font-size: 3em;
 }
 
 .sectionOneContainer>p{
-    font-family: Sansation_Reg;
+    font-family: 'Roboto', sans-serif;
 }
 
 .boxContainer{
@@ -111,7 +98,7 @@ section{
     height: 50%;
     transform: translate(-50%);
     text-align: center;
-    font-family: Sansation_Reg;
+    font-family: 'Roboto', sans-serif;
     color: white;
 }
 
@@ -157,7 +144,7 @@ section{
 }
 
 .contactForm{
-    font-family: Sansation_Reg;
+    font-family: 'Roboto', sans-serif;
     position: absolute;
     width: 80%;
     height: 90%;
@@ -181,15 +168,17 @@ section{
     height: 10%;
     margin: 1%;
     border-radius: 20px;
-    font-size: 30px;
+    font-size: 20px;
     padding: 8px;
     background-color:#2B3048 ;
-    font-family: Sansation_Reg;
+    font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 .contactForm .inputB{
     width: 23.5%;
-    font-size: 30px;
+    font-size: 20px;
+    color: white;
 }
 
 .contactForm .inputArea{
@@ -204,7 +193,7 @@ section{
     border: none;
     border-radius: 17px;
     padding: 1%;
-    font-family: Sansation_Reg;
+    font-family: 'Roboto', sans-serif;
     color: white;
     font-size: large;
     margin: 1%;
@@ -219,7 +208,7 @@ section{
     border: none;
     border-radius: 17px;
     padding: 1%;
-    font-family: Sansation_Reg;
+    font-family: 'Roboto', sans-serif;
     color: white;
     font-size: large;
     box-shadow: 0px 0px 15px 5px rgba(255, 136, 0, 0.445);
@@ -230,4 +219,38 @@ section{
     background: none;
     font-size: 20px;
     color:#9a9a9d;
+}
+
+label{
+    margin-left: 1%;
+    color: #F3890C;
+}
+
+input::placeholder{
+    font-size: 1.3rem;
+}
+
+.blur{
+    z-index: -2;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.blur2{
+    z-index: -2;
+    position: absolute;
+    margin-top: 10%;
+}
+
+.errorMsg{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 3rem;
+}
+
+
+.success{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 3rem;
 }

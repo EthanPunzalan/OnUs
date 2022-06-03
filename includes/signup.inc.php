@@ -4,7 +4,6 @@
         $f_name = $_POST['f_name'];
         $l_name = $_POST['l_name'];
         $email = $_POST['email'];
-        //$username = $_POST['username'];
         $pwd = $_POST['password'];
         $pwdConfirm = $_POST['confirm_password'];
 

@@ -48,7 +48,7 @@ function createUser($db,$f_name,$l_name,$email,$pwd){
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
 
-    header('location:../signup.php?error=noerror');
+    header('location:../index.php?error=noerror');
     exit();
 }
 

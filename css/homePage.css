@@ -1,12 +1,5 @@
-@font-face {
-    font-family: Sansation_Bold;
-    src: url(/OnUs/font/sansation/Sansation_Bold.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Revalia&family=Roboto&display=swap');
 
-@font-face {
-    font-family: Sansation_Reg;
-    src: url(/OnUs/font/sansation/Sansation_Regular.ttf);
-}
 
 /* width */
 ::-webkit-scrollbar {
@@ -57,7 +50,7 @@ section{
 }
 
 .navBar a{
-    font-family: Sansation_Bold;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: white;
     margin-right: 50px;
@@ -94,7 +87,7 @@ section{
 }
 
 .sloganContainer{
-    font-family: Sansation_Bold;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     position: absolute;
     top: 35%;
@@ -125,7 +118,7 @@ section{
     border: none;
     border-radius: 17px;
     padding: 2%;
-    font-family: Sansation_Reg;
+    font-family: 'Roboto', sans-serif;
     color: white;
     font-size: large;
     box-shadow: 0px 0px 15px 5px rgba(255, 136, 0, 0.445);
@@ -139,7 +132,7 @@ button:hover{
     border: none;
     border-radius: 17px;
     padding: 3%;
-    font-family: Sansation_Reg;
+    font-family: 'Roboto', sans-serif;
     color: white;
     font-size: large;
     box-shadow: 0px 0px 15px 5px rgba(255, 136, 0, 0.445);
@@ -171,7 +164,7 @@ button:hover{
     left: 50%;
     top: 90%;
     transform: translate(-50%, 60%);
-    font-family: Sansation_Bold;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding: 1%;
     box-shadow: inset 13px 13px 30px 4px rgba(0, 0, 0, 0.25);
@@ -194,7 +187,7 @@ button:hover{
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    font-family: Sansation_Bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .ourWorksCont > h1{
@@ -235,7 +228,7 @@ button:hover{
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    font-family: Sansation_Bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .theTeamCont > h1{
@@ -285,13 +278,13 @@ button:hover{
 .footer1 > .footerContent {
     color: #DAD3D3;
     margin-left: 5%;
-    font-family: Sansation_Reg ;
+    font-family: 'Roboto', sans-serif;
 }
 
 .footer2{
     margin-top: 3%;
     color: white;
-    font-family: Sansation_Reg ;
+    font-family: 'Roboto', sans-serif;
 }
 
 h3{
@@ -306,7 +299,7 @@ h3{
 
 .footer3{
     margin-top: 3%;
-    font-family: Sansation_Reg ;
+    font-family: 'Roboto', sans-serif;
     color: white;
 }
 
@@ -318,7 +311,7 @@ h3{
 .footer4{
     margin-top: 3%;
     margin-right: 5%;
-    font-family: Sansation_Reg ;
+    font-family: 'Roboto', sans-serif;
     color: white;
 }
 
@@ -331,14 +324,32 @@ a:hover{
     color: #F3890C;
 }
 
-/* .categories {
-    color: #FFFFFF;
-    position: relative;
-    left: 35%;
+.blur4{
+    position: absolute;
+    right: 0;
+    top: 50%;
 }
 
-.names {
-    color: #9F9F9F;
-    position: relative;
-    left: 35%;
-} */
+.blur5{
+    z-index: -2;
+    position: absolute;
+    margin-left: 50%;
+    top: 170%;
+}
+
+.blur6{
+    
+    position: absolute;
+    
+}
+
+.client1{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.client2{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}

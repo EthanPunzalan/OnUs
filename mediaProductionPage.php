@@ -72,7 +72,7 @@
         <div class="orangePillar"><img src="imgs/orangePillarLong.png" alt=""></div>
         <div class="counter02">02</div>
         <div class="vg">Videography</div>
-        <img class="blur4"src="/imgs/blur4.png" alt="">
+        <img class="blur4"src="imgs/blur4.png" alt="">
         <div class="vgContent"><span style="color:#F3890C;">Videography</span> is the art of making video films. It is booming as part of the digital marketing strategy.<br>
             Videos give your business a face or voice and provide exponentially high SEO value for a business.<br>
             Videos help in converting brands. Using the visual medium to tell your story is incredibly effective.<br>
@@ -156,8 +156,8 @@
             </div>
         </div>
      
-    
         <div class="footer">
+        <div class="footer1">
             <img class="footerLogo"src="imgs/footerLogo.png" alt="">
             <p class="footerContent">Where innovation and imagination are brought to life through design<br>
                 and technology.
@@ -166,19 +166,30 @@
                 Integrity, fairness and commitment to our customers.
                 <br>
                 <br>
-                <!-- saan punta? -->
                 <span style="color: #FF8A00;">Read more →</span>
             </p>
-            
-            <p class="categories">CATEGORIES</p>
-            
-            <P class="names">Heaven Justin<br>
-                Ethan Punz<br>
-                Altherenz<br>
-                Sean Bochog<br>
-                Cedric
-            </P>
-        </div>   
+        </div>
+        <div class="footer2">
+            <h3>Categories</h3>
+            <a href="digitalMarketingPage.php">Digital Marketing</a><br>
+            <a href="websiteAppsPage.php">Website & Mobile Application</a><br>
+            <a href="mediaProductionPage.php">Media Production</a><br>
+        </div>
+
+        <div class="footer3">
+            <h3>FAQs</h3>
+            <a href="#team">Who are we?</a><br>
+            <a href="#wdwd">What do we do?</a><br>
+            <a href="pricingPage.php">Pricing</a><br>
+        </div>
+
+        <div class="footer4">
+            <h3>Contacts</h3>
+            <p>Onuswebsite@gmail.com</p>        
+        </div>
+
+                    
+    </div> 
     
 </body>
 </html>

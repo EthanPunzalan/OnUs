@@ -17,25 +17,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/OnUs/css/landingPage.css">
+    <link rel="stylesheet" href="css/homePage.css">
     <title>OnUs</title>
 </head>
 <body>
     <div class="navBar">
-        <img src="/OnUs/imgs/logo.png" alt="">
+        <img src="imgs/logo.png" alt="">
         <a class="active" href="homePage.php">Home</a>
         <a href="categoryPage.php">Category</a>
         <a href="pricingPage.php">Pricing</a>
         <a href="contactUsPage.php">Contact Us</a>
         <a href="includes/logout.inc.php" class="logoutLink">Logout</a>
-        <!-- <a href="loginPage.html" class="loginBtn">Sign in</a> -->
     </div>
 
 <section>
     <div class="sloganContainer">
-        <img src="/OnUs/imgs/OnUsBG.png" alt="">
-        <img class="blur" src="/OnUs/imgs/blur1.png" alt="">
-        <img class="blur2" src="/OnUs/imgs/blur2.png" alt="">
+        <img src="imgs/OnUsBG.png" alt="">
+        <img class="blur" src="imgs/blur1.png" alt="">
+        <img class="blur2" src="imgs/blur2.png" alt="">
         <h1>Hello <span style=" color:#F3890C;"><?php echo $row['first_name']?></span>!</h1>
         <h1>Digital Services?<br><span style="color: #F3890C;">It's On-Us</span></h1>
         <div class="sloganP">
@@ -47,13 +46,15 @@
 
     <div class="landingPageDesign">
         <!-- <img class="purpBG" src="/imgs/Vector 1.png" alt=""> -->
-        <img class="phone" src="/OnUs/imgs/phone.png" alt="">
+        <img class="phone" src="imgs/phone.png" alt="">
         
         
     </div>
 </section>
 
 <section id="wdwd">
+    <img class="blur3" src="imgs/blur3.png" alt="">
+    <img class="blur4" src="imgs/blur5.png" alt="">
    <div class="wdwdCont">
         <h1>What do we do<span style="color:#F3890C ;">?</span></h1>
         <p>We take our clients' ideas, visualize them and turn them into reality. And basically offer the best experience in planning and transforming ideas into a finished product</p>
@@ -61,29 +62,32 @@
 </section>
 
 <section>
+    <img class="blur5" src="imgs/blur1.png" alt="">
     <div class="ourWorksCont">
-        <h1><span style="color:#F3890C ;">Our</span> Works</h1>
+        <h1><span style="color:#F3890C ;">Our</span> Clients</h1>
         <div class="row1">
-
+            <img class="client1" src="imgs/clients1.png" alt="">
         </div>
         <div class="row2">
-
+        <img class="client2" src="imgs/clients2.png" alt="">
         </div>
     </div>
 </section>
 
 <section id="team">
+    <img class="blur" src="imgs/blur1.png" alt="">
+    <img class="blur6" src="imgs/blur2.png" alt="">
     <div class="theTeamCont">
         <h1><span style="color:#F3890C ;">Our</span> Team</h1>
         <div class="row1">
-            <img src="/OnUs/imgs/ethan.png" alt="">
-            <img src="/OnUs/imgs/sean.png" alt="">
-            <img src="/OnUs/imgs/jonathan.png" alt="">
+            <img src="imgs/ethan.png" alt="">
+            <img src="imgs/sean.png" alt="">
+            <img src="imgs/jonathan.png" alt="">
         </div>
         <div class="row2">
-            <img src="/OnUs/imgs/cedric.png" alt="">
-            <img src="/OnUs/imgs/altherenz.png" alt="">
-            <img src="/OnUs/imgs/heaven.png" alt="">
+            <img src="imgs/cedric.png" alt="">
+            <img src="imgs/altherenz.png" alt="">
+            <img src="imgs/heaven.png" alt="">
         </div>
     </div>
 </section>
@@ -117,7 +121,8 @@
         </div>
 
         <div class="footer4">
-            <h3>Contacts</h3>        
+            <h3>Contacts</h3>
+            <p>Onuswebsite@gmail.com</p>        
         </div>
 
                     

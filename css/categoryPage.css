@@ -1,17 +1,4 @@
-@font-face {
-    font-family: Sansation_Bold;
-    src: url(/OnUs/font/sansation/Sansation_Bold.ttf);
-}
-
-@font-face {
-    font-family: Sansation_Reg;
-    src: url(/OnUs/font/sansation/Sansation_Regular.ttf);
-}
-
-@font-face {
-    font-family: Revalia;
-    src: url(/OnUs/font/Revalia-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Revalia&family=Roboto&display=swap');
 
 /* width */
 ::-webkit-scrollbar {
@@ -62,7 +49,7 @@ section{
 }
 
 .navBar a{
-    font-family: Sansation_Bold;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: white;
     margin-right: 50px;
@@ -89,7 +76,7 @@ section{
     /* box-shadow: inset 13px 13px 30px 13px rgba(0, 0, 0, 0.25); */
     background-color: #2B3048;
     text-align: center;
-    font-family: Sansation_Bold;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     background-image: url(/imgs/cardBg.png);
     margin-left: 2%;
@@ -107,7 +94,7 @@ section{
 
 .card > h1{
     font-size: 2.5em;
-    font-family: Revalia;
+    font-family: 'Revalia', cursive;
 }
 
 .card > p{
@@ -156,4 +143,16 @@ section{
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.blur1{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.blur2{
+    position: absolute;
+    top: 7%;
+    
 }

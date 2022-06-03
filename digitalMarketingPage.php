@@ -66,7 +66,7 @@
         <div class="orangePillar"><img src="imgs/orangePillarLong.png" alt=""></div>
         <div class="counter02">02</div>
         <div class="yta">Youtube Ads</div>
-        <img class="blur4"src="/imgs/blur4.png" alt="">
+        <img class="blur4"src="imgs/blur4.png" alt="">
         <div class="ytaContent">YouTube ads provide you with a powerful way to connect with the site’s 30 million or so daily<br>
             visitors, with custom targeting options that allow your company to direct ads specifically toward the<br>
             individuals who are most likely to be interested in your product or service. As consumers spend an<br>
@@ -161,7 +161,9 @@
         </div>
     
     
+        
         <div class="footer">
+        <div class="footer1">
             <img class="footerLogo"src="imgs/footerLogo.png" alt="">
             <p class="footerContent">Where innovation and imagination are brought to life through design<br>
                 and technology.
@@ -172,16 +174,27 @@
                 <br>
                 <span style="color: #FF8A00;">Read more →</span>
             </p>
-            
-            <p class="categories">CATEGORIES</p>
-            
-            <P class="names">Heaven Justin<br>
-                Ethan Punz<br>
-                Altherenz<br>
-                Sean Bochog<br>
-                Cedric
-            </P>
-        </div>   
-    
+        </div>
+        <div class="footer2">
+            <h3>Categories</h3>
+            <a href="digitalMarketingPage.php">Digital Marketing</a><br>
+            <a href="websiteAppsPage.php">Website & Mobile Application</a><br>
+            <a href="mediaProductionPage.php">Media Production</a><br>
+        </div>
+
+        <div class="footer3">
+            <h3>FAQs</h3>
+            <a href="#team">Who are we?</a><br>
+            <a href="#wdwd">What do we do?</a><br>
+            <a href="pricingPage.php">Pricing</a><br>
+        </div>
+
+        <div class="footer4">
+            <h3>Contacts</h3>
+            <p>Onuswebsite@gmail.com</p>        
+        </div>
+
+                    
+    </div> 
 </body>
 </html>

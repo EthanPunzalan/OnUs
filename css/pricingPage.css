@@ -1,17 +1,4 @@
-@font-face {
-    font-family: Sansation_Bold;
-    src: url(/OnUs/font/sansation/Sansation_Bold.ttf);
-}
-
-@font-face {
-    font-family: Sansation_Reg;
-    src: url(/OnUs/font/sansation/Sansation_Regular.ttf);
-}
-
-@font-face {
-    font-family: Revalia;
-    src: url(/OnUs/font/Revalia-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Revalia&family=Roboto&display=swap');
 
 /* width */
 ::-webkit-scrollbar {
@@ -62,7 +49,7 @@ section{
 }
 
 .navBar a{
-    font-family: Sansation_Bold;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: white;
     margin-right: 50px;
@@ -83,18 +70,18 @@ section{
 
 
 .card {
-    /* height: 100%; */
+    height: 120%;
     width: 18%;
     border-radius: 10px;
-    box-shadow: inset 5px 12px 24px rgba(0, 0, 0, 0.35);
-    /* box-shadow: inset 13px 13px 30px 13px rgba(0, 0, 0, 0.25); */
+    box-shadow: inset 5px 12px 24px rgba(0, 0, 0, 0.35),5px 12px 24px rgba(0, 0, 0, 0.35);
     background-color: #272c42;
     text-align: left;
     padding: 10px 15px;
-    font-family: Sansation_Bold;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     background-image: url(/imgs/cardBg.png);
     margin-left: 2%;
+    position: relative;
 }
 
 .card2{
@@ -104,15 +91,6 @@ section{
 .card2>h1{
     font-size: 1.5rem;
 }
-
-.card2>#learnMoreBtn{
-    margin-top: 13%;
-}
-
-.card3>#learnMoreBtn{
-    margin-top: 7%;
-}
-
 
 .card:hover{
     box-shadow: inset 5px 12px 24px #f3870c46;
@@ -126,14 +104,14 @@ section{
 
 .card > h1{
     font-size: 2rem;
-    font-family: Sansation_Bold;
+    font-family: 'Montserrat', sans-serif;
     color: #F3890C;
     margin-left: 5%;
 }
 
 .card > p{
     color: white;
-    font-size: 1.3em;
+    font-size: 120%;
     margin-left: 5%;
 }
 
@@ -169,7 +147,7 @@ section{
     position: absolute;
     top: 60%;
     left: 50%;
-    transform: translate(-47%, -43%);
+    transform: translate(-50%, -43%);
     /* overflow: hidden; */
 }
 .inner-slider {
@@ -186,19 +164,20 @@ section{
 #learnMoreBtn{
     background: #f3870c;
     width: 90%;
-    height: 20%;
+    height: 10%;
     border: none;
     border-radius: 17px;
     padding: 1%;
-    font-family: Sansation_Reg;
+    font-family: 'Roboto', sans-serif;
     color: white;
-    font-size: 2rem;
+    font-size: 150%;
     margin: 1%;
     box-shadow: 0px 0px 15px 5px rgba(255, 136, 0, 0.445);
     cursor: pointer;
     transition: .3s;
-    margin-left: 5%;
-    align-self: end;
+    /* margin-left: 5%; */
+    position: absolute;
+    bottom: 5%;
 }
 
 #learnMoreBtn:hover{
@@ -206,7 +185,83 @@ section{
     border: none;
     border-radius: 17px;
     padding: 1%;
-    font-family: Sansation_Reg;
+    font-family: 'Roboto', sans-serif;
     color: white;
     box-shadow: 0px 0px 15px 5px rgba(255, 136, 0, 0.445);
+}
+
+.box-container{
+    background-color: #F3890C;
+}
+
+.inner-box{
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    left: 56%;
+    transform: translate(-50%);
+    margin-top: 10%;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.box{
+    height: 85%;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: inset 5px 12px 24px rgba(0, 0, 0, 0.35),5px 12px 24px rgba(0, 0, 0, 0.35);
+    background-color: #1f2233;
+    text-align: left;
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-image: url(/imgs/cardBg.png);
+    margin-left: 2%;
+    position: relative;
+}
+
+.box>.cardTitle{
+    color: #F3890C;
+    font-size: 1vw;
+}
+
+
+.box>p{
+    color: #636363;
+    font-size: .8vw;
+}
+
+.box>.cardPrice{
+    margin-top: -5%;
+    font-size: 2vw;
+}
+
+#sectionTitle{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 17%;
+    margin-top: 5%;
+}
+
+#sectionTwo{
+    margin-top: -20%;
+}
+
+.box4{
+    margin-top: 10%;
+}
+
+.blur{
+    z-index: -2;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.blur2{
+    z-index: -2;
+    position: absolute;
+    margin-top: 30%;
 }
